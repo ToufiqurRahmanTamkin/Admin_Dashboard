@@ -20,6 +20,7 @@ export default function Chart({ title, data, dataKey, grid }) {
           <Tooltip />
           {grid && <CartesianGrid stroke="#e0dfdf" strokeDasharray="5 5" />}
         </LineChart>
+        
       </ResponsiveContainer>
     </div>
   );
